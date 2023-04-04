@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+.vscode/
+pyproject.toml
+media/
+
 # Distribution / packaging
 .Python
 build/
