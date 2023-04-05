@@ -46,7 +46,7 @@ def check_tokens() -> NoReturn:
             function_info="проверки наличия переменных окружения check_tokens"
         )
     )
-    TOKENS: dict[str : Optional[str]] = {
+    TOKENS: dict[str: Optional[str]] = {
         "PRACTICUM_TOKEN": PRACTICUM_TOKEN,
         "TELEGRAM_TOKEN": TELEGRAM_TOKEN,
         "TELEGRAM_CHAT_ID": TELEGRAM_CHAT_ID,
