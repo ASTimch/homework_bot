@@ -1,3 +1,4 @@
+LOG_BOT_START: str = "Программа бота запущена."
 LOG_FUNCTION_START: str = "Запуск функции {function_info}"
 LOG_TOKENS_NOT_FOUND: str = (
     "Отсутствуют обязательные переменные окружения {tokens}"
@@ -33,4 +34,7 @@ HOMEWORK_STATUS_CHANGED: str = (
 )
 LOG_UNKNOWN_ERROR: str = (
     'Сбой в работе программы: {error}'
+)
+LOG_API_REQUEST_PARAMS: str = (
+    'Отправка запроса: url={url}, headers={headers}, params={params}'
 )
